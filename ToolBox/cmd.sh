@@ -1,4 +1,7 @@
-#!/bin/bash
+#!/bin/zsh
+
+export TERM=${TERM:-dumb}
+
 cmd="$1";
 dir="$2";
 

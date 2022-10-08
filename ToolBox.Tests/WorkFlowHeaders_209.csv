@@ -1,0 +1,20 @@
+WorkFlowHeaders
+WorkflowName,ObjectType,Email_Template,Email_Preferred_Approvers_Only,Notes,IsInActive,IsRestricted
+"60Approval",26,,,,-1,
+"Expense",20003,,0,,0,0
+"Urgent",20003,,0,,0,0
+"Recurring",20003,,0,,0,0
+"4step",20003,,0,,0,0
+"2step",20003,,0,,0,0
+"5step",20003,,0,,0,0
+"3step",20003,,0,,0,0
+"4step#2",20003,,0,,0,0
+"PO Workflow",26,,0,,0,0
+"PO Match",20003,,0,,0,0
+"Quick",20003,,0,,0,0
+"YMP-Auto",26,,0,,0,0
+"YMP-OneStepApproval",26,,0,,0,0
+"AP Approval",20003,,0,,0,0
+"4step new",20003,,0,,0,0
+"4step#2 new",20003,,0,,0,0
+"AP Cycle",20003,,0,,0,0

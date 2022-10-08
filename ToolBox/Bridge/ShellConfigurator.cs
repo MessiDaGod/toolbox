@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 using System.Text;
@@ -62,6 +63,71 @@ namespace ToolBox.Bridge
             {
                 startInfo.ArgumentList.Add(cmd[i]);
             }
+            startInfo.RedirectStandardInput = false;
+            startInfo.RedirectStandardOutput = (output != Output.External);
+            startInfo.RedirectStandardError = (output != Output.External);
+            startInfo.UseShellExecute = false;
+            startInfo.CreateNoWindow = (output != Output.External);
+            if (!String.IsNullOrEmpty(dir) && output != Output.External)
+            {
+                startInfo.WorkingDirectory = dir;
+            }
+
+            using (Process process = Process.Start(startInfo))
+            {
+                switch (output)
+                {
+                    case Output.Internal:
+                        _notificationSystem.StandardLine();
+
+                        while (!process.StandardOutput.EndOfStream)
+                        {
+                            string line = process.StandardOutput.ReadLine();
+                            stdout.AppendLine(line);
+                            _notificationSystem.StandardOutput(line);
+                        }
+
+                        while (!process.StandardError.EndOfStream)
+                        {
+                            string line = process.StandardError.ReadLine();
+                            stderr.AppendLine(line);
+                            _notificationSystem.StandardError(line);
+                        }
+                        break;
+                    case Output.Hidden:
+                        stdout.AppendLine(process.StandardOutput.ReadToEnd());
+                        stderr.AppendLine(process.StandardError.ReadToEnd());
+                        break;
+                }
+
+                process.WaitForExit();
+                result.stdout = stdout.ToString();
+                result.stderr = stderr.ToString();
+                result.code = process.ExitCode;
+            }
+
+            return result;
+        }
+
+        public Response Term(string[] command, Output? output = Output.Hidden, string dir = "")
+        {
+            var result = new Response();
+            var stderr = new StringBuilder();
+            var stdout = new StringBuilder();
+            List<string> cmds = new();
+            ProcessStartInfo startInfo = new ProcessStartInfo();
+
+            for (int i = 0; i < command.Length; i++)
+            {
+                var cmd = _bridgeSystem.CommandConstructor(command[i], output, dir);
+                for (int j = 0; j < cmd.Length; j++)
+                {
+                    cmds.Add(cmd[j]);
+                    startInfo.ArgumentList.Add(cmd[j]);
+                }
+            }
+            startInfo.FileName = _bridgeSystem.GetFileName();
+
             startInfo.RedirectStandardInput = false;
             startInfo.RedirectStandardOutput = (output != Output.External);
             startInfo.RedirectStandardError = (output != Output.External);

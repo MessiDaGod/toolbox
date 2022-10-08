@@ -1,0 +1,227 @@
+WorkFlowXrefs
+WorkflowName,ObjectType,StepName,Role,Next_Step,AmountFrom,AmountTo,Over_Budget_Amt_From,Over_Budget_Amt_To,Over_Budget_Percent_From,Over_Budget_Percent_To,Approver_Count,Job_Phase,Revision_Type,WF_Role,WF_Workflow,Change_Role,Change_Allow
+"Expense",20003,"Site Staff","Site Staff","Accounting Review",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"Expense",20003,"Site Staff","Site Staff","Void",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"Expense",20003,"Accounting Review","Accounting","Portfolio Manager",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"Expense",20003,"Accounting Review","Accounting","Return to Site Staff",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"Expense",20003,"Accounting Review","Accounting","Void",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"Expense",20003,"Portfolio Manager","Port. Manager","Final Approval",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"Expense",20003,"Portfolio Manager","Port. Manager","Return to Site Staff",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"Expense",20003,"Portfolio Manager","Port. Manager","Return to Accounting",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"Expense",20003,"Portfolio Manager","Port. Manager","Void",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"Expense",20003,"Return to Site Staff","Site Staff","Accounting Review",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"Expense",20003,"Return to Site Staff","Site Staff","Void",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"Expense",20003,"Return to Accounting","Accounting","Portfolio Manager",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"Expense",20003,"Return to Accounting","Accounting","Return to Site Staff",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"Expense",20003,"Return to Accounting","Accounting","Void",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"Urgent",20003,"Data Entry","Accounting","Approver",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"Urgent",20003,"Data Entry","Accounting","Void",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"Urgent",20003,"Approver","Urgent Approver","Final Approval",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"Urgent",20003,"Approver","Urgent Approver","Void",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"Recurring",20003,"Data Entry","Accounting","Approver",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"Recurring",20003,"Data Entry","Accounting","Void",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"Recurring",20003,"Approver","Urgent Approver","Final Approval",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"Recurring",20003,"Approver","Urgent Approver","Void",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"4step",20003,"Site Staff","Site Staff","Property Manager",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Site Staff",-1
+"4step",20003,"Site Staff","Site Staff","Void",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Site Staff",-1
+"4step",20003,"Property Manager","Property Manager","Accounting Review",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Property Manager",-1
+"4step",20003,"Property Manager","Property Manager","Void",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Property Manager",-1
+"4step",20003,"Property Manager","Property Manager","Return to Site Staff",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Property Manager",-1
+"4step",20003,"Accounting Review","Accounting","Portfolio Manager",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Accounting",-1
+"4step",20003,"Accounting Review","Accounting","Void",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Accounting",-1
+"4step",20003,"Accounting Review","Accounting","Return to Site Staff",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Accounting",-1
+"4step",20003,"Accounting Review","Accounting","Return to Prop Mgr",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Accounting",-1
+"4step",20003,"Portfolio Manager","Port. Manager","Final Approval",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Port. Manager",-1
+"4step",20003,"Portfolio Manager","Port. Manager","Void",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Port. Manager",-1
+"4step",20003,"Portfolio Manager","Port. Manager","Return to Accounting",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Port. Manager",-1
+"4step",20003,"Portfolio Manager","Port. Manager","Return to Site Staff",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Port. Manager",-1
+"4step",20003,"Portfolio Manager","Port. Manager","Return to Prop Mgr",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Port. Manager",-1
+"4step",20003,"Return to Accounting","Accounting","Property Manager",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Accounting",-1
+"4step",20003,"Return to Accounting","Accounting","Void",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Accounting",-1
+"4step",20003,"Return to Accounting","Accounting","Portfolio Manager",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Accounting",-1
+"4step",20003,"Return to Site Staff","Site Staff","Property Manager",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Site Staff",-1
+"4step",20003,"Return to Site Staff","Site Staff","Accounting Review",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Site Staff",-1
+"4step",20003,"Return to Site Staff","Site Staff","Void",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Site Staff",-1
+"4step",20003,"Return to Prop Mgr","Property Manager","Accounting Review",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Property Manager",-1
+"4step",20003,"Return to Prop Mgr","Property Manager","Portfolio Manager",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Property Manager",-1
+"4step",20003,"Return to Prop Mgr","Property Manager","Void",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Property Manager",-1
+"2step",20003,"Site Staff","Site Staff","Manager Approval",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"2step",20003,"Site Staff","Site Staff","Void",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"2step",20003,"Manager Approval","Port. Manager","Final Approval",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"2step",20003,"Manager Approval","Port. Manager","Void",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"2step",20003,"Manager Approval","Port. Manager","Return to Site Staff",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"2step",20003,"Return to Site Staff","Accounting","Manager Approval",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"2step",20003,"Return to Site Staff","Accounting","Void",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"2step",20003,"Site Staff","Accounting","Manager Approval",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"2step",20003,"Site Staff","Accounting","Manager Approval",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"2step",20003,"Return to Site Staff","Site Staff","Manager Approval",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"2step",20003,"Return to Site Staff","Site Staff","Void",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"4step",20003,"Return to Prop Mgr","Property Manager","Return to Site Staff",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Property Manager",-1
+"5step",20003,"Site Staff","Site Staff","Property Manager",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Site Staff",-1
+"5step",20003,"Site Staff","Site Staff","Void",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Site Staff",-1
+"5step",20003,"Property Manager","Property Manager","Accounting Review",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Property Manager",-1
+"5step",20003,"Property Manager","Property Manager","Void",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Property Manager",-1
+"5step",20003,"Property Manager","Property Manager","Return to Site Staff",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Property Manager",-1
+"5step",20003,"Accounting Review","Accounting","Portfolio Manager",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Accounting",-1
+"5step",20003,"Accounting Review","Accounting","Void",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Accounting",-1
+"5step",20003,"Accounting Review","Accounting","Return to Site Staff",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Accounting",-1
+"5step",20003,"Accounting Review","Accounting","Return to Prop Mgr",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Accounting",-1
+"5step",20003,"Asset Manager","Asset Manager","Final Approval",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Asset Manager",-1
+"5step",20003,"Asset Manager","Asset Manager","Void",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Asset Manager",-1
+"5step",20003,"Asset Manager","Asset Manager","Return to Accounting",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Asset Manager",-1
+"5step",20003,"Asset Manager","Asset Manager","Return to Site Staff",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Asset Manager",-1
+"5step",20003,"Asset Manager","Asset Manager","Return to Prop Mgr",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Asset Manager",-1
+"5step",20003,"Return to Accounting","Accounting","Property Manager",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Accounting",-1
+"5step",20003,"Return to Accounting","Accounting","Void",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Accounting",-1
+"5step",20003,"Return to Accounting","Accounting","Asset Manager",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Accounting",-1
+"5step",20003,"Return to Site Staff","Site Staff","Property Manager",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Site Staff",-1
+"5step",20003,"Return to Site Staff","Site Staff","Accounting Review",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Site Staff",-1
+"5step",20003,"Return to Site Staff","Site Staff","Void",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Site Staff",-1
+"5step",20003,"Return to Prop Mgr","Property Manager","Accounting Review",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Property Manager",-1
+"5step",20003,"Return to Prop Mgr","Property Manager","Asset Manager",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Property Manager",-1
+"5step",20003,"Return to Prop Mgr","Property Manager","Void",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Property Manager",-1
+"5step",20003,"Return to Prop Mgr","Property Manager","Return to Site Staff",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Property Manager",-1
+"5step",20003,"Portfolio Manager","Port. Manager","Asset Manager",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Port. Manager",-1
+"5step",20003,"Portfolio Manager","Port. Manager","Void",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Port. Manager",-1
+"5step",20003,"Portfolio Manager","Port. Manager","Return to Accounting",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Port. Manager",-1
+"5step",20003,"Portfolio Manager","Port. Manager","Return to Prop Mgr",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Port. Manager",-1
+"5step",20003,"Portfolio Manager","Port. Manager","Return to Site Staff",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Port. Manager",-1
+"5step",20003,"Return to Port Mgr","Port. Manager","Asset Manager",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"5step",20003,"Return to Port Mgr","Port. Manager","Void",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"5step",20003,"Return to Port Mgr","Port. Manager","Return to Accounting",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"5step",20003,"Return to Port Mgr","Port. Manager","Return to Site Staff",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"5step",20003,"Asset Manager","Asset Manager","Return to Port Mgr",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Asset Manager",-1
+"3step",20003,"Accounting Input","Accounting","Property Manager",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"3step",20003,"Accounting Input","Accounting","Void",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"3step",20003,"Portfolio Manager","Port. Manager","Final Approval",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"3step",20003,"Portfolio Manager","Port. Manager","Return to Accounting",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"3step",20003,"Portfolio Manager","Port. Manager","Return to Property Mgr",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"3step",20003,"Portfolio Manager","Port. Manager","Void",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"3step",20003,"Property Manager","Property Manager","Portfolio Manager",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"3step",20003,"Property Manager","Property Manager","Return to Accounting",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"3step",20003,"Property Manager","Property Manager","Void",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"3step",20003,"Return to Accounting","Accounting","Property Manager",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"3step",20003,"Return to Accounting","Accounting","Void",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"3step",20003,"Return to Property Mgr","Property Manager","Portfolio Manager",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"3step",20003,"Return to Property Mgr","Property Manager","Return to Accounting",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"3step",20003,"Return to Property Mgr","Property Manager","Void",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"4step#2",20003,"Site Staff","Site Staff","Accounting Review",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Site Staff",-1
+"4step#2",20003,"Site Staff","Site Staff","Void",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Site Staff",-1
+"4step#2",20003,"Accounting Review","Accounting","Portfolio Manager",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Accounting",-1
+"4step#2",20003,"Accounting Review","Accounting","Void",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Accounting",-1
+"4step#2",20003,"Accounting Review","Accounting","Return to Site Staff",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Accounting",-1
+"4step#2",20003,"Portfolio Manager","Port. Manager","Asset Manager",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Port. Manager",-1
+"4step#2",20003,"Portfolio Manager","Port. Manager","Void",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Port. Manager",-1
+"4step#2",20003,"Portfolio Manager","Port. Manager","Return to Accounting",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Port. Manager",-1
+"4step#2",20003,"Portfolio Manager","Port. Manager","Return to Site Staff",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Port. Manager",-1
+"4step#2",20003,"Return to Accounting","Accounting","DELETE",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Accounting",-1
+"4step#2",20003,"Return to Accounting","Accounting","Void",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Accounting",-1
+"4step#2",20003,"Return to Accounting","Accounting","Portfolio Manager",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Accounting",-1
+"4step#2",20003,"Return to Site Staff","Site Staff","DELETE",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Site Staff",-1
+"4step#2",20003,"Return to Site Staff","Site Staff","Accounting Review",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Site Staff",-1
+"4step#2",20003,"Return to Site Staff","Site Staff","Void",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Site Staff",-1
+"4step#2",20003,"Return to Port Mgr","Port. Manager","Accounting Review",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Property Manager",-1
+"4step#2",20003,"Return to Port Mgr","Port. Manager","Void",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Property Manager",-1
+"4step#2",20003,"Return to Port Mgr","Port. Manager","Return to Site Staff",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Property Manager",-1
+"4step#2",20003,"Asset Manager","Asset Manager","Final Approval",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"4step#2",20003,"Asset Manager","Asset Manager","Void",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"4step#2",20003,"Asset Manager","Asset Manager","Return to Site Staff",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"4step#2",20003,"Asset Manager","Asset Manager","Return to Accounting",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"4step#2",20003,"Asset Manager","Asset Manager","Return to Port Mgr",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"PO Workflow",26,"Site Staff","Site Staff","Asset Manager",5000.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"PO Workflow",26,"Site Staff","Site Staff","Portfolio Manager",0.00,4999.99,0.00,0.00,0.00,0.00,0,,,,,,
+"PO Workflow",26,"Portfolio Manager","Port. Manager","Final Approval",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"PO Workflow",26,"Portfolio Manager","Port. Manager","Return to Site Staff",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"PO Workflow",26,"Portfolio Manager","Port. Manager","Return to Asset Mgr",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"PO Workflow",26,"Portfolio Manager","Port. Manager","Void",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"PO Workflow",26,"Asset Manager","Asset Manager","Portfolio Manager",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"PO Workflow",26,"Asset Manager","Asset Manager","Return to Site Staff",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"PO Workflow",26,"Asset Manager","Asset Manager","Void",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"PO Workflow",26,"Return to Site Staff","Site Staff","Asset Manager",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"PO Workflow",26,"Return to Site Staff","Site Staff","Portfolio Manager",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"PO Workflow",26,"Return to Asset Mgr","Asset Manager","Portfolio Manager",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"PO Workflow",26,"Return to Asset Mgr","Asset Manager","Void",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"PO Workflow",26,"Site Staff","Site Staff","Void",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"PO Workflow",26,"Return to Site Staff","Site Staff","Void",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"PO Match",20003,"Data Entry","Accounting","Final Approval",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"PO Match",20003,"Data Entry","Accounting","Void",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"Quick",20003,"Data Entry","Site Staff","Approver",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"Quick",20003,"Data Entry","Site Staff","Void",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"Quick",20003,"Approver","Accounting","Final Approval",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"Quick",20003,"Approver","Accounting","Void",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"YMP-OneStepApproval",26,"Accounting","Accounting","Final Approval",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"YMP-OneStepApproval",26,"Accounting","Accounting","Void",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"AP Approval",20003,"Site Staff","Site Staff","Accounting Review",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"AP Approval",20003,"Site Staff","Site Staff","Void",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"AP Approval",20003,"Portfolio Manager","Port. Manager","Final Approval",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"AP Approval",20003,"Portfolio Manager","Port. Manager","Return to Site Staff",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"AP Approval",20003,"Portfolio Manager","Port. Manager","Void",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"AP Approval",20003,"Accounting Review","Accounting","Portfolio Manager",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"AP Approval",20003,"Accounting Review","Accounting","Return to Site Staff",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"AP Approval",20003,"Accounting Review","Accounting","Void",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"AP Approval",20003,"Return to Site Staff","Site Staff","Portfolio Manager",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"AP Approval",20003,"Return to Site Staff","Site Staff","Void",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"AP Approval",20003,"Return to Portfolio Manager","Port. Manager","Accounting Review",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"AP Approval",20003,"Return to Portfolio Manager","Port. Manager","Void",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"4step new",20003,"Site Staff","Site Staff","Property Manager",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Site Staff",-1
+"4step new",20003,"Site Staff","Site Staff","Void",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Site Staff",-1
+"4step new",20003,"Property Manager","Property Manager","Portfolio Manager",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Property Manager",-1
+"4step new",20003,"Property Manager","Property Manager","Void",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Property Manager",-1
+"4step new",20003,"Property Manager","Property Manager","Return to Site Staff",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Property Manager",-1
+"4step new",20003,"Accounting Review","Accounting","Final Approval",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Accounting",-1
+"4step new",20003,"Accounting Review","Accounting","Void",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Accounting",-1
+"4step new",20003,"Accounting Review","Accounting","Return to Site Staff",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Accounting",-1
+"4step new",20003,"Accounting Review","Accounting","Return to Prop Mgr",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Accounting",-1
+"4step new",20003,"Portfolio Manager","Port. Manager","Accounting Review",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Port. Manager",-1
+"4step new",20003,"Portfolio Manager","Port. Manager","Void",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Port. Manager",-1
+"4step new",20003,"Portfolio Manager","Port. Manager","Return to Site Staff",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Port. Manager",-1
+"4step new",20003,"Portfolio Manager","Port. Manager","Return to Prop Mgr",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Port. Manager",-1
+"4step new",20003,"Return to Portfolio Manager","Port. Manager","Void",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Accounting",-1
+"4step new",20003,"Return to Portfolio Manager","Port. Manager","Accounting Review",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Accounting",-1
+"4step new",20003,"Return to Site Staff","Site Staff","Property Manager",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Site Staff",-1
+"4step new",20003,"Return to Site Staff","Site Staff","Accounting Review",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Site Staff",-1
+"4step new",20003,"Return to Site Staff","Site Staff","Void",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Site Staff",-1
+"4step new",20003,"Return to Prop Mgr","Property Manager","Accounting Review",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Property Manager",-1
+"4step new",20003,"Return to Prop Mgr","Property Manager","Portfolio Manager",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Property Manager",-1
+"4step new",20003,"Return to Prop Mgr","Property Manager","Void",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Property Manager",-1
+"4step new",20003,"Accounting Review","Accounting","Return to Portfolio Manager",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Accounting",-1
+"4step new",20003,"Return to Site Staff","Site Staff","Portfolio Manager",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Site Staff",-1
+"4step#2 new",20003,"Site Staff","Site Staff","Portfolio Manager",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Site Staff",-1
+"4step#2 new",20003,"Site Staff","Site Staff","Void",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Site Staff",-1
+"4step#2 new",20003,"Accounting Review","Accounting","Final Approval",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Accounting",-1
+"4step#2 new",20003,"Accounting Review","Accounting","Void",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Accounting",-1
+"4step#2 new",20003,"Accounting Review","Accounting","Return to Site Staff",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Accounting",-1
+"4step#2 new",20003,"Portfolio Manager","Port. Manager","Asset Manager",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Port. Manager",-1
+"4step#2 new",20003,"Portfolio Manager","Port. Manager","Void",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Port. Manager",-1
+"4step#2 new",20003,"Portfolio Manager","Port. Manager","Return to Site Staff",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Port. Manager",-1
+"4step#2 new",20003,"Return to Asset Manager","Accounting","DELETE",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Accounting",-1
+"4step#2 new",20003,"Return to Asset Manager","Accounting","Void",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Accounting",-1
+"4step#2 new",20003,"Return to Asset Manager","Accounting","Accounting Review",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Accounting",-1
+"4step#2 new",20003,"Return to Site Staff","Site Staff","DELETE",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Site Staff",-1
+"4step#2 new",20003,"Return to Site Staff","Site Staff","Accounting Review",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Site Staff",-1
+"4step#2 new",20003,"Return to Site Staff","Site Staff","Void",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Site Staff",-1
+"4step#2 new",20003,"Return to Port Mgr","Port. Manager","Accounting Review",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Property Manager",-1
+"4step#2 new",20003,"Return to Port Mgr","Port. Manager","Void",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Property Manager",-1
+"4step#2 new",20003,"Return to Port Mgr","Port. Manager","Asset Manager",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Property Manager",-1
+"4step#2 new",20003,"Asset Manager","Asset Manager","Accounting Review",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"4step#2 new",20003,"Asset Manager","Asset Manager","Void",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"4step#2 new",20003,"Asset Manager","Asset Manager","Return to Site Staff",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"4step#2 new",20003,"Asset Manager","Asset Manager","Return to Port Mgr",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"4step#2 new",20003,"Accounting Review","Accounting","Return to Port Mgr",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Accounting",-1
+"4step#2 new",20003,"Accounting Review","Accounting","Return to Asset Manager",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Accounting",-1
+"4step#2 new",20003,"Return to Site Staff","Site Staff","Asset Manager",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Site Staff",-1
+"4step#2 new",20003,"Return to Site Staff","Site Staff","Portfolio Manager",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,"Site Staff",-1
+"AP Cycle",20003,"Site Staff","Site Staff","Portfolio Manager",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"AP Cycle",20003,"Site Staff","Site Staff","Void",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"AP Cycle",20003,"Portfolio Manager","Port. Manager","Accounting Review",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"AP Cycle",20003,"Portfolio Manager","Port. Manager","Return to Site Staff",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"AP Cycle",20003,"Portfolio Manager","Port. Manager","Void",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"AP Cycle",20003,"Accounting Review","Accounting","Final Approval",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"AP Cycle",20003,"Accounting Review","Accounting","Return to Site Staff",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"AP Cycle",20003,"Accounting Review","Accounting","Return to Portfolio Manager",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"AP Cycle",20003,"Accounting Review","Accounting","Void",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"AP Cycle",20003,"Return to Site Staff","Site Staff","Portfolio Manager",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"AP Cycle",20003,"Return to Site Staff","Site Staff","Void",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"AP Cycle",20003,"Return to Site Staff","Site Staff","Accounting Review",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"AP Cycle",20003,"Return to Portfolio Manager","Port. Manager","Accounting Review",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,
+"AP Cycle",20003,"Return to Portfolio Manager","Port. Manager","Void",0.00,0.00,0.00,0.00,0.00,0.00,0,,,,,,

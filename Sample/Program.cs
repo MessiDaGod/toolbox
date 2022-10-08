@@ -84,8 +84,10 @@ namespace Sample
             _colorify.DivisionLine('=', Colorify.Colors.bgInfo);
             _colorify.BlankLines();
             _colorify.Write($"{" Make your choice:",-25}");
-            string opt = Console.ReadLine();
+            var opt = Console.ReadLine();
             opt = opt.ToLower();
+            if (string.IsNullOrEmpty(opt))
+                opt = "3";
 
             _colorify.Clear();
             switch (opt)
@@ -146,7 +148,8 @@ namespace Sample
         {
             try
             {
-                Response result = _shell.Term("dotnet --version", Output.Hidden);
+                var connectScript = "SSHPASS='ujJdg3Z9Kj*T' sshpass -e sftp Blanton_Turner@Enstoa.files.com";
+                Response result = _shell.Term(connectScript, Output.Hidden);
                 _shell.Result(result.stdout, "Not Installed");
                 _colorify.WriteLine(result.code.ToString(), txtInfo);
                 if (result.code == 0)
@@ -170,7 +173,8 @@ namespace Sample
         {
             try
             {
-                _shell.Term("dotnet --help", Output.Internal);
+                var connectScript = "SSHPASS='ujJdg3Z9Kj*T' sshpass -e sftp Blanton_Turner@Enstoa.files.com";
+                Response result = _shell.Term(connectScript, Output.Internal);
 
                 Back();
             }
@@ -184,7 +188,8 @@ namespace Sample
         {
             try
             {
-                Response result = _shell.Term("dotnet --version", Output.External);
+                var connectScript = "SSHPASS='ujJdg3Z9Kj*T' sshpass -e sftp Blanton_Turner@Enstoa.files.com";
+                Response result = _shell.Term(connectScript, Output.External);
 
                 Back();
             }
@@ -198,12 +203,8 @@ namespace Sample
         {
             try
             {
-                string id = "42 A";
-                string command = $"dotnet --diagnostics APP_ID='{id}'";
-
-                string path = _path.Combine("~", "Folder with Spaces");
-
-                Response result = _shell.Term(command, Output.External, path);
+                var command = new[] { "SSHPASS='ujJdg3Z9Kj*T' sshpass -e sftp Blanton_Turner@Enstoa.files.com", "get /Master\\ Data/*.csv" };
+                Response result = _shell.Term(command, Output.Hidden);
 
                 Back();
             }

@@ -2,7 +2,7 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "build",
+      "label": "build2",
       "command": "dotnet",
       "type": "process",
       "group": {
@@ -13,13 +13,13 @@
       "problemMatcher": "$msCompile"
     },
     {
-      "label": "build tests",
+      "label": "build sample",
       "command": "dotnet",
       "type": "process",
       "group": "build",
       "args": [
         "build",
-        "${workspaceFolder}/ToolBox.Tests/ToolBox.Tests.csproj"
+        "${workspaceFolder}/Sample/Sample.csproj"
       ],
       "problemMatcher": "$msCompile"
     },
@@ -33,7 +33,7 @@
       },
       "args": [
         "test",
-        "${workspaceFolder}/ToolBox.Tests/ToolBox.Tests.csproj",
+        "${workspaceFolder}/Sample/Sample.csproj",
         "/p:CollectCoverage=true",
         "/p:CoverletOutputFormat=\"opencover,lcov\"",
         "/p:CoverletOutput=../lcov"
@@ -111,6 +111,43 @@
         "panel": "new"
       },
       "problemMatcher": []
-    }
+    },
+    {
+      "label": "build",
+      "command": "dotnet",
+      "type": "process",
+      "args": [
+          "build",
+          "${workspaceFolder}/Sample/Sample.csproj",
+          "/property:GenerateFullPaths=true",
+          "/consoleloggerparameters:NoSummary"
+      ],
+      "dependsOn": ["build2"],
+      "problemMatcher": "$msCompile"
+  },
+  {
+      "label": "publish2",
+      "command": "dotnet",
+      "type": "process",
+      "args": [
+          "publish",
+          "${workspaceFolder}/Sample.csproj",
+          "/property:GenerateFullPaths=true",
+          "/consoleloggerparameters:NoSummary"
+      ],
+      "problemMatcher": "$msCompile"
+  },
+  {
+      "label": "watch2",
+      "command": "dotnet",
+      "type": "process",
+      "args": [
+          "watch",
+          "run",
+          "--project",
+          "${workspaceFolder}/Sample.csproj"
+      ],
+      "problemMatcher": "$msCompile"
+  }
   ]
 }
